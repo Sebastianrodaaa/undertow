@@ -1,0 +1,3056 @@
+{
+  "arms": {
+    "A": {
+      "converged_rate": 1.0,
+      "exact_rate": 1.0,
+      "exact_rate_ci95": [
+        1.0,
+        1.0
+      ],
+      "stale_finite_cells_mean": 0.0,
+      "trials": 20,
+      "wrong_fraction_mean": 0.0
+    },
+    "B": {
+      "converged_rate": 1.0,
+      "exact_rate": 0.5,
+      "exact_rate_ci95": [
+        0.3,
+        0.7
+      ],
+      "stale_finite_cells_mean": 808.45,
+      "trials": 20,
+      "wrong_fraction_mean": 0.02431753542946628
+    },
+    "C": {
+      "converged_rate": 1.0,
+      "exact_rate": 1.0,
+      "exact_rate_ci95": [
+        1.0,
+        1.0
+      ],
+      "stale_finite_cells_mean": 0.0,
+      "trials": 20,
+      "wrong_fraction_mean": 0.0
+    }
+  },
+  "cities": {
+    "amsterdam": {
+      "bbox": [
+        52.36,
+        4.879,
+        52.378,
+        4.905
+      ],
+      "building_dots": 2000,
+      "checksum": "4ac735d7da1fc6f41e37a6d19d6e5708897f7f17b093dd8d305292ac2785052e",
+      "exit_count": 6,
+      "label": "Amsterdam \u00b7 canal ring",
+      "walkable_cells": 32588,
+      "way_count": 3013
+    },
+    "lyon": {
+      "bbox": [
+        45.756,
+        4.8235,
+        45.7675,
+        4.8425
+      ],
+      "building_dots": 2000,
+      "checksum": "08edf80990616d129ef575b0d4c777483023393e4a5404ba1bbb449277a8e015",
+      "exit_count": 6,
+      "label": "Lyon \u00b7 Presqu'ile",
+      "walkable_cells": 31740,
+      "way_count": 3652
+    },
+    "paris": {
+      "bbox": [
+        48.8505,
+        2.337,
+        48.8615,
+        2.3575
+      ],
+      "building_dots": 2000,
+      "checksum": "fba5c166cb49fb569feb23a5c8a7b05ba5c26b42fd155ace0733abb23cf00982",
+      "exit_count": 6,
+      "label": "Paris \u00b7 Ile de la Cite",
+      "walkable_cells": 36104,
+      "way_count": 4663
+    },
+    "venice": {
+      "bbox": [
+        45.4315,
+        12.326,
+        45.439,
+        12.3425
+      ],
+      "building_dots": 1188,
+      "checksum": "bac2e0a8cfd9932ce24354883cb88bfcf5a4ea71849a50121b4d8e138f38bbf9",
+      "exit_count": 6,
+      "label": "Venice \u00b7 San Marco",
+      "walkable_cells": 25551,
+      "way_count": 2349
+    }
+  },
+  "cpu_count": 8,
+  "repair": {
+    "A": {
+      "median_ratio": 0.4218009478672986,
+      "median_repair_loops": 89.0,
+      "median_restart_loops": 196.5,
+      "rows": [
+        {
+          "arm": "A",
+          "city": "paris",
+          "converged": true,
+          "exact": true,
+          "initial_loops": 179,
+          "name": "Rue du Pont Louis-Philippe",
+          "ratio": 0.31843575418994413,
+          "repair_loops": 57,
+          "restart_loops": 179,
+          "stale_finite_cells": 0,
+          "way_id": 4527562,
+          "wrong_cells": 0
+        },
+        {
+          "arm": "A",
+          "city": "paris",
+          "converged": true,
+          "exact": true,
+          "initial_loops": 179,
+          "name": "Pont des Arts",
+          "ratio": 0.11731843575418995,
+          "repair_loops": 21,
+          "restart_loops": 179,
+          "stale_finite_cells": 0,
+          "way_id": 454298362,
+          "wrong_cells": 0
+        },
+        {
+          "arm": "A",
+          "city": "paris",
+          "converged": true,
+          "exact": true,
+          "initial_loops": 179,
+          "name": "Rue du Pont Neuf",
+          "ratio": 0.9405405405405406,
+          "repair_loops": 174,
+          "restart_loops": 185,
+          "stale_finite_cells": 0,
+          "way_id": 688234527,
+          "wrong_cells": 0
+        },
+        {
+          "arm": "A",
+          "city": "paris",
+          "converged": true,
+          "exact": true,
+          "initial_loops": 179,
+          "name": "Rue du Pont de Lodi",
+          "ratio": 0.27932960893854747,
+          "repair_loops": 50,
+          "restart_loops": 179,
+          "stale_finite_cells": 0,
+          "way_id": 4227128,
+          "wrong_cells": 0
+        },
+        {
+          "arm": "A",
+          "city": "lyon",
+          "converged": true,
+          "exact": true,
+          "initial_loops": 211,
+          "name": "Pont de la Guilloti\u00e8re",
+          "ratio": 0.4218009478672986,
+          "repair_loops": 89,
+          "restart_loops": 211,
+          "stale_finite_cells": 0,
+          "way_id": 741654036,
+          "wrong_cells": 0
+        },
+        {
+          "arm": "A",
+          "city": "lyon",
+          "converged": true,
+          "exact": true,
+          "initial_loops": 211,
+          "name": "Pont de la Guilloti\u00e8re",
+          "ratio": 0.4218009478672986,
+          "repair_loops": 89,
+          "restart_loops": 211,
+          "stale_finite_cells": 0,
+          "way_id": 741654038,
+          "wrong_cells": 0
+        },
+        {
+          "arm": "A",
+          "city": "lyon",
+          "converged": true,
+          "exact": true,
+          "initial_loops": 211,
+          "name": "Pont de la Guilloti\u00e8re",
+          "ratio": 0.4218009478672986,
+          "repair_loops": 89,
+          "restart_loops": 211,
+          "stale_finite_cells": 0,
+          "way_id": 133405621,
+          "wrong_cells": 0
+        },
+        {
+          "arm": "A",
+          "city": "lyon",
+          "converged": true,
+          "exact": true,
+          "initial_loops": 211,
+          "name": "Pont Wilson",
+          "ratio": 0.46919431279620855,
+          "repair_loops": 99,
+          "restart_loops": 211,
+          "stale_finite_cells": 0,
+          "way_id": 242291664,
+          "wrong_cells": 0
+        },
+        {
+          "arm": "A",
+          "city": "amsterdam",
+          "converged": true,
+          "exact": true,
+          "initial_loops": 137,
+          "name": "Nieuwebrugsteeg",
+          "ratio": 1.036231884057971,
+          "repair_loops": 143,
+          "restart_loops": 138,
+          "stale_finite_cells": 0,
+          "way_id": 37416483,
+          "wrong_cells": 0
+        },
+        {
+          "arm": "A",
+          "city": "amsterdam",
+          "converged": true,
+          "exact": true,
+          "initial_loops": 137,
+          "name": "Sint Nicolaasbrug",
+          "ratio": 0.9051094890510949,
+          "repair_loops": 124,
+          "restart_loops": 137,
+          "stale_finite_cells": 0,
+          "way_id": 1068346827,
+          "wrong_cells": 0
+        },
+        {
+          "arm": "A",
+          "city": "amsterdam",
+          "converged": true,
+          "exact": true,
+          "initial_loops": 137,
+          "name": "Oudebrugsteeg",
+          "ratio": 0.6861313868613139,
+          "repair_loops": 94,
+          "restart_loops": 137,
+          "stale_finite_cells": 0,
+          "way_id": 7371208,
+          "wrong_cells": 0
+        },
+        {
+          "arm": "A",
+          "city": "amsterdam",
+          "converged": true,
+          "exact": true,
+          "initial_loops": 137,
+          "name": "Sarphatistraat",
+          "ratio": 0.3722627737226277,
+          "repair_loops": 51,
+          "restart_loops": 137,
+          "stale_finite_cells": 0,
+          "way_id": 38733575,
+          "wrong_cells": 0
+        },
+        {
+          "arm": "A",
+          "city": "venice",
+          "converged": true,
+          "exact": true,
+          "initial_loops": 208,
+          "name": "Calle del dose da Ponte",
+          "ratio": 0.10576923076923077,
+          "repair_loops": 22,
+          "restart_loops": 208,
+          "stale_finite_cells": 0,
+          "way_id": 175660733,
+          "wrong_cells": 0
+        },
+        {
+          "arm": "A",
+          "city": "venice",
+          "converged": true,
+          "exact": true,
+          "initial_loops": 208,
+          "name": "Calle Al Ponte dell'Anzolo",
+          "ratio": 0.22596153846153846,
+          "repair_loops": 47,
+          "restart_loops": 208,
+          "stale_finite_cells": 0,
+          "way_id": 181588788,
+          "wrong_cells": 0
+        },
+        {
+          "arm": "A",
+          "city": "venice",
+          "converged": true,
+          "exact": true,
+          "initial_loops": 208,
+          "name": "Calle al Ponte de la Guerra",
+          "ratio": 0.2980769230769231,
+          "repair_loops": 62,
+          "restart_loops": 208,
+          "stale_finite_cells": 0,
+          "way_id": 170205733,
+          "wrong_cells": 0
+        },
+        {
+          "arm": "A",
+          "city": "venice",
+          "converged": true,
+          "exact": true,
+          "initial_loops": 208,
+          "name": "Ponte dell'Accademia",
+          "ratio": 1.1057692307692308,
+          "repair_loops": 230,
+          "restart_loops": 208,
+          "stale_finite_cells": 0,
+          "way_id": 946641888,
+          "wrong_cells": 0
+        }
+      ]
+    },
+    "B": {
+      "median_ratio": 0.010213097713097714,
+      "median_repair_loops": 2.0,
+      "median_restart_loops": 196.5,
+      "rows": [
+        {
+          "arm": "B",
+          "city": "paris",
+          "converged": true,
+          "exact": false,
+          "initial_loops": 179,
+          "name": "Rue du Pont Louis-Philippe",
+          "ratio": 0.0111731843575419,
+          "repair_loops": 2,
+          "restart_loops": 179,
+          "stale_finite_cells": 130,
+          "way_id": 4527562,
+          "wrong_cells": 130
+        },
+        {
+          "arm": "B",
+          "city": "paris",
+          "converged": true,
+          "exact": false,
+          "initial_loops": 179,
+          "name": "Pont des Arts",
+          "ratio": 0.0111731843575419,
+          "repair_loops": 2,
+          "restart_loops": 179,
+          "stale_finite_cells": 4,
+          "way_id": 454298362,
+          "wrong_cells": 4
+        },
+        {
+          "arm": "B",
+          "city": "paris",
+          "converged": true,
+          "exact": false,
+          "initial_loops": 179,
+          "name": "Rue du Pont Neuf",
+          "ratio": 0.010810810810810811,
+          "repair_loops": 2,
+          "restart_loops": 185,
+          "stale_finite_cells": 1621,
+          "way_id": 688234527,
+          "wrong_cells": 1621
+        },
+        {
+          "arm": "B",
+          "city": "paris",
+          "converged": true,
+          "exact": false,
+          "initial_loops": 179,
+          "name": "Rue du Pont de Lodi",
+          "ratio": 0.0111731843575419,
+          "repair_loops": 2,
+          "restart_loops": 179,
+          "stale_finite_cells": 197,
+          "way_id": 4227128,
+          "wrong_cells": 197
+        },
+        {
+          "arm": "B",
+          "city": "lyon",
+          "converged": true,
+          "exact": false,
+          "initial_loops": 211,
+          "name": "Pont de la Guilloti\u00e8re",
+          "ratio": 0.009478672985781991,
+          "repair_loops": 2,
+          "restart_loops": 211,
+          "stale_finite_cells": 477,
+          "way_id": 741654036,
+          "wrong_cells": 477
+        },
+        {
+          "arm": "B",
+          "city": "lyon",
+          "converged": true,
+          "exact": false,
+          "initial_loops": 211,
+          "name": "Pont de la Guilloti\u00e8re",
+          "ratio": 0.009478672985781991,
+          "repair_loops": 2,
+          "restart_loops": 211,
+          "stale_finite_cells": 477,
+          "way_id": 741654038,
+          "wrong_cells": 477
+        },
+        {
+          "arm": "B",
+          "city": "lyon",
+          "converged": true,
+          "exact": false,
+          "initial_loops": 211,
+          "name": "Pont de la Guilloti\u00e8re",
+          "ratio": 0.009478672985781991,
+          "repair_loops": 2,
+          "restart_loops": 211,
+          "stale_finite_cells": 477,
+          "way_id": 133405621,
+          "wrong_cells": 477
+        },
+        {
+          "arm": "B",
+          "city": "lyon",
+          "converged": true,
+          "exact": false,
+          "initial_loops": 211,
+          "name": "Pont Wilson",
+          "ratio": 0.009478672985781991,
+          "repair_loops": 2,
+          "restart_loops": 211,
+          "stale_finite_cells": 360,
+          "way_id": 242291664,
+          "wrong_cells": 360
+        },
+        {
+          "arm": "B",
+          "city": "amsterdam",
+          "converged": true,
+          "exact": false,
+          "initial_loops": 137,
+          "name": "Nieuwebrugsteeg",
+          "ratio": 0.014492753623188406,
+          "repair_loops": 2,
+          "restart_loops": 138,
+          "stale_finite_cells": 1321,
+          "way_id": 37416483,
+          "wrong_cells": 1321
+        },
+        {
+          "arm": "B",
+          "city": "amsterdam",
+          "converged": true,
+          "exact": false,
+          "initial_loops": 137,
+          "name": "Sint Nicolaasbrug",
+          "ratio": 0.014598540145985401,
+          "repair_loops": 2,
+          "restart_loops": 137,
+          "stale_finite_cells": 694,
+          "way_id": 1068346827,
+          "wrong_cells": 694
+        },
+        {
+          "arm": "B",
+          "city": "amsterdam",
+          "converged": true,
+          "exact": false,
+          "initial_loops": 137,
+          "name": "Oudebrugsteeg",
+          "ratio": 0.014598540145985401,
+          "repair_loops": 2,
+          "restart_loops": 137,
+          "stale_finite_cells": 81,
+          "way_id": 7371208,
+          "wrong_cells": 81
+        },
+        {
+          "arm": "B",
+          "city": "amsterdam",
+          "converged": true,
+          "exact": false,
+          "initial_loops": 137,
+          "name": "Sarphatistraat",
+          "ratio": 0.014598540145985401,
+          "repair_loops": 2,
+          "restart_loops": 137,
+          "stale_finite_cells": 48,
+          "way_id": 38733575,
+          "wrong_cells": 48
+        },
+        {
+          "arm": "B",
+          "city": "venice",
+          "converged": true,
+          "exact": false,
+          "initial_loops": 208,
+          "name": "Calle del dose da Ponte",
+          "ratio": 0.009615384615384616,
+          "repair_loops": 2,
+          "restart_loops": 208,
+          "stale_finite_cells": 89,
+          "way_id": 175660733,
+          "wrong_cells": 89
+        },
+        {
+          "arm": "B",
+          "city": "venice",
+          "converged": true,
+          "exact": false,
+          "initial_loops": 208,
+          "name": "Calle Al Ponte dell'Anzolo",
+          "ratio": 0.009615384615384616,
+          "repair_loops": 2,
+          "restart_loops": 208,
+          "stale_finite_cells": 189,
+          "way_id": 181588788,
+          "wrong_cells": 189
+        },
+        {
+          "arm": "B",
+          "city": "venice",
+          "converged": true,
+          "exact": false,
+          "initial_loops": 208,
+          "name": "Calle al Ponte de la Guerra",
+          "ratio": 0.009615384615384616,
+          "repair_loops": 2,
+          "restart_loops": 208,
+          "stale_finite_cells": 69,
+          "way_id": 170205733,
+          "wrong_cells": 69
+        },
+        {
+          "arm": "B",
+          "city": "venice",
+          "converged": true,
+          "exact": false,
+          "initial_loops": 208,
+          "name": "Ponte dell'Accademia",
+          "ratio": 0.009615384615384616,
+          "repair_loops": 2,
+          "restart_loops": 208,
+          "stale_finite_cells": 1242,
+          "way_id": 946641888,
+          "wrong_cells": 1242
+        }
+      ],
+      "stale_trial_rate": 1.0
+    }
+  },
+  "run_type": "core_arms_real_osm",
+  "scale_label": "4 cities x 5 trials per arm, 4 edits per trial",
+  "started_utc": "2026-11-25T20:46:37Z",
+  "throughput": [
+    {
+      "city": "paris",
+      "loops": 263,
+      "loops_per_second": 174.89364895093607,
+      "seconds": 1.503771014999984
+    },
+    {
+      "city": "lyon",
+      "loops": 201,
+      "loops_per_second": 133.60394286851553,
+      "seconds": 1.5044466179999745
+    },
+    {
+      "city": "amsterdam",
+      "loops": 377,
+      "loops_per_second": 251.2657297861975,
+      "seconds": 1.5004035780000322
+    },
+    {
+      "city": "venice",
+      "loops": 327,
+      "loops_per_second": 217.5281139421107,
+      "seconds": 1.503253966000102
+    }
+  ],
+  "torch_version": "2.14.1+cpu",
+  "trials": [
+    {
+      "arm": "A",
+      "changed_series": [],
+      "city": "paris",
+      "converged": true,
+      "edit_count": 4,
+      "events": [
+        {
+          "action": "close",
+          "loop": 24,
+          "name": "Rue des Bernardins",
+          "way_id": 72240223
+        },
+        {
+          "action": "close",
+          "loop": 39,
+          "name": "Pont d'Arcole",
+          "way_id": 22973459
+        },
+        {
+          "action": "close",
+          "loop": 58,
+          "name": "Passage Dauphine",
+          "way_id": 62252372
+        },
+        {
+          "action": "close",
+          "loop": 77,
+          "name": "Parc Rives de Seine - Georges Pompidou",
+          "way_id": 995212887
+        }
+      ],
+      "exact": true,
+      "loops_run": 355,
+      "seed": 10000,
+      "stale_finite_cells": 0,
+      "state_resets": 0,
+      "wall_seconds": 1.7298994359998687,
+      "wrong_cells": 0,
+      "wrong_fraction": 0.0
+    },
+    {
+      "arm": "A",
+      "changed_series": [],
+      "city": "paris",
+      "converged": true,
+      "edit_count": 4,
+      "events": [
+        {
+          "action": "close",
+          "loop": 34,
+          "name": "Rue le Regrattier",
+          "way_id": 4433292
+        },
+        {
+          "action": "close",
+          "loop": 46,
+          "name": "Acc\u00e8s Parking Saint-Michel",
+          "way_id": 40432592
+        },
+        {
+          "action": "open",
+          "loop": 56,
+          "name": "Rue le Regrattier",
+          "way_id": 4433292
+        },
+        {
+          "action": "close",
+          "loop": 75,
+          "name": "Rue de Rivoli",
+          "way_id": 123324299
+        }
+      ],
+      "exact": true,
+      "loops_run": 327,
+      "seed": 10100,
+      "stale_finite_cells": 0,
+      "state_resets": 0,
+      "wall_seconds": 1.4832363590001023,
+      "wrong_cells": 0,
+      "wrong_fraction": 0.0
+    },
+    {
+      "arm": "A",
+      "changed_series": [],
+      "city": "paris",
+      "converged": true,
+      "edit_count": 4,
+      "events": [
+        {
+          "action": "close",
+          "loop": 39,
+          "name": "Rue du Pont Neuf",
+          "way_id": 45828735
+        },
+        {
+          "action": "close",
+          "loop": 52,
+          "name": "Rue des Bourdonnais",
+          "way_id": 53578236
+        },
+        {
+          "action": "close",
+          "loop": 64,
+          "name": "Place Maurice Quentin",
+          "way_id": 1036607482
+        },
+        {
+          "action": "close",
+          "loop": 74,
+          "name": "Rue de la Lingerie",
+          "way_id": 173292038
+        }
+      ],
+      "exact": true,
+      "loops_run": 181,
+      "seed": 10200,
+      "stale_finite_cells": 0,
+      "state_resets": 0,
+      "wall_seconds": 0.841532812999958,
+      "wrong_cells": 0,
+      "wrong_fraction": 0.0
+    },
+    {
+      "arm": "A",
+      "changed_series": [],
+      "city": "paris",
+      "converged": true,
+      "edit_count": 4,
+      "events": [
+        {
+          "action": "close",
+          "loop": 38,
+          "name": "Cour de Rohan",
+          "way_id": 1249832034
+        },
+        {
+          "action": "close",
+          "loop": 49,
+          "name": "Rue des Archives",
+          "way_id": 1286204925
+        },
+        {
+          "action": "open",
+          "loop": 61,
+          "name": "Cour de Rohan",
+          "way_id": 1249832034
+        },
+        {
+          "action": "open",
+          "loop": 81,
+          "name": "Rue des Archives",
+          "way_id": 1286204925
+        }
+      ],
+      "exact": true,
+      "loops_run": 291,
+      "seed": 10300,
+      "stale_finite_cells": 0,
+      "state_resets": 0,
+      "wall_seconds": 1.4185135909999644,
+      "wrong_cells": 0,
+      "wrong_fraction": 0.0
+    },
+    {
+      "arm": "A",
+      "changed_series": [],
+      "city": "paris",
+      "converged": true,
+      "edit_count": 4,
+      "events": [
+        {
+          "action": "close",
+          "loop": 23,
+          "name": "Place Joachim du Bellay",
+          "way_id": 1249423943
+        },
+        {
+          "action": "open",
+          "loop": 37,
+          "name": "Place Joachim du Bellay",
+          "way_id": 1249423943
+        },
+        {
+          "action": "close",
+          "loop": 46,
+          "name": "Rue du Petit Pont",
+          "way_id": 1333220017
+        },
+        {
+          "action": "close",
+          "loop": 63,
+          "name": "Pont d'Arcole",
+          "way_id": 138032010
+        }
+      ],
+      "exact": true,
+      "loops_run": 198,
+      "seed": 10400,
+      "stale_finite_cells": 0,
+      "state_resets": 0,
+      "wall_seconds": 0.9240699719998702,
+      "wrong_cells": 0,
+      "wrong_fraction": 0.0
+    },
+    {
+      "arm": "B",
+      "changed_series": [],
+      "city": "paris",
+      "converged": true,
+      "edit_count": 4,
+      "events": [
+        {
+          "action": "close",
+          "loop": 24,
+          "name": "Rue des Bernardins",
+          "way_id": 72240223
+        },
+        {
+          "action": "close",
+          "loop": 39,
+          "name": "Pont d'Arcole",
+          "way_id": 22973459
+        },
+        {
+          "action": "close",
+          "loop": 58,
+          "name": "Passage Dauphine",
+          "way_id": 62252372
+        },
+        {
+          "action": "close",
+          "loop": 77,
+          "name": "Parc Rives de Seine - Georges Pompidou",
+          "way_id": 995212887
+        }
+      ],
+      "exact": false,
+      "loops_run": 179,
+      "seed": 10000,
+      "stale_finite_cells": 5608,
+      "state_resets": 0,
+      "wall_seconds": 0.8828464190000886,
+      "wrong_cells": 5608,
+      "wrong_fraction": 0.15971292683621452
+    },
+    {
+      "arm": "B",
+      "changed_series": [],
+      "city": "paris",
+      "converged": true,
+      "edit_count": 4,
+      "events": [
+        {
+          "action": "close",
+          "loop": 34,
+          "name": "Rue le Regrattier",
+          "way_id": 4433292
+        },
+        {
+          "action": "close",
+          "loop": 46,
+          "name": "Acc\u00e8s Parking Saint-Michel",
+          "way_id": 40432592
+        },
+        {
+          "action": "open",
+          "loop": 56,
+          "name": "Rue le Regrattier",
+          "way_id": 4433292
+        },
+        {
+          "action": "close",
+          "loop": 75,
+          "name": "Rue de Rivoli",
+          "way_id": 123324299
+        }
+      ],
+      "exact": false,
+      "loops_run": 199,
+      "seed": 10100,
+      "stale_finite_cells": 2364,
+      "state_resets": 0,
+      "wall_seconds": 0.9027751489998082,
+      "wrong_cells": 2364,
+      "wrong_fraction": 0.06754864702688802
+    },
+    {
+      "arm": "B",
+      "changed_series": [],
+      "city": "paris",
+      "converged": true,
+      "edit_count": 4,
+      "events": [
+        {
+          "action": "close",
+          "loop": 39,
+          "name": "Rue du Pont Neuf",
+          "way_id": 45828735
+        },
+        {
+          "action": "close",
+          "loop": 52,
+          "name": "Rue des Bourdonnais",
+          "way_id": 53578236
+        },
+        {
+          "action": "close",
+          "loop": 64,
+          "name": "Place Maurice Quentin",
+          "way_id": 1036607482
+        },
+        {
+          "action": "close",
+          "loop": 74,
+          "name": "Rue de la Lingerie",
+          "way_id": 173292038
+        }
+      ],
+      "exact": true,
+      "loops_run": 181,
+      "seed": 10200,
+      "stale_finite_cells": 0,
+      "state_resets": 0,
+      "wall_seconds": 0.8084067039999354,
+      "wrong_cells": 0,
+      "wrong_fraction": 0.0
+    },
+    {
+      "arm": "B",
+      "changed_series": [],
+      "city": "paris",
+      "converged": true,
+      "edit_count": 4,
+      "events": [
+        {
+          "action": "close",
+          "loop": 38,
+          "name": "Cour de Rohan",
+          "way_id": 1249832034
+        },
+        {
+          "action": "close",
+          "loop": 49,
+          "name": "Rue des Archives",
+          "way_id": 1286204925
+        },
+        {
+          "action": "open",
+          "loop": 61,
+          "name": "Cour de Rohan",
+          "way_id": 1249832034
+        },
+        {
+          "action": "open",
+          "loop": 81,
+          "name": "Rue des Archives",
+          "way_id": 1286204925
+        }
+      ],
+      "exact": true,
+      "loops_run": 179,
+      "seed": 10300,
+      "stale_finite_cells": 0,
+      "state_resets": 0,
+      "wall_seconds": 0.9563165399999889,
+      "wrong_cells": 0,
+      "wrong_fraction": 0.0
+    },
+    {
+      "arm": "B",
+      "changed_series": [],
+      "city": "paris",
+      "converged": true,
+      "edit_count": 4,
+      "events": [
+        {
+          "action": "close",
+          "loop": 23,
+          "name": "Place Joachim du Bellay",
+          "way_id": 1249423943
+        },
+        {
+          "action": "open",
+          "loop": 37,
+          "name": "Place Joachim du Bellay",
+          "way_id": 1249423943
+        },
+        {
+          "action": "close",
+          "loop": 46,
+          "name": "Rue du Petit Pont",
+          "way_id": 1333220017
+        },
+        {
+          "action": "close",
+          "loop": 63,
+          "name": "Pont d'Arcole",
+          "way_id": 138032010
+        }
+      ],
+      "exact": false,
+      "loops_run": 179,
+      "seed": 10400,
+      "stale_finite_cells": 906,
+      "state_resets": 0,
+      "wall_seconds": 0.8742698470000505,
+      "wrong_cells": 906,
+      "wrong_fraction": 0.02519185852519186
+    },
+    {
+      "arm": "C",
+      "changed_series": [],
+      "city": "paris",
+      "converged": true,
+      "edit_count": 4,
+      "events": [
+        {
+          "action": "close",
+          "loop": 24,
+          "name": "Rue des Bernardins",
+          "way_id": 72240223
+        },
+        {
+          "action": "close",
+          "loop": 39,
+          "name": "Pont d'Arcole",
+          "way_id": 22973459
+        },
+        {
+          "action": "close",
+          "loop": 58,
+          "name": "Passage Dauphine",
+          "way_id": 62252372
+        },
+        {
+          "action": "close",
+          "loop": 77,
+          "name": "Parc Rives de Seine - Georges Pompidou",
+          "way_id": 995212887
+        }
+      ],
+      "exact": true,
+      "loops_run": 310,
+      "seed": 10000,
+      "stale_finite_cells": 0,
+      "state_resets": 4,
+      "wall_seconds": 1.2761962950000907,
+      "wrong_cells": 0,
+      "wrong_fraction": 0.0
+    },
+    {
+      "arm": "C",
+      "changed_series": [],
+      "city": "paris",
+      "converged": true,
+      "edit_count": 4,
+      "events": [
+        {
+          "action": "close",
+          "loop": 34,
+          "name": "Rue le Regrattier",
+          "way_id": 4433292
+        },
+        {
+          "action": "close",
+          "loop": 46,
+          "name": "Acc\u00e8s Parking Saint-Michel",
+          "way_id": 40432592
+        },
+        {
+          "action": "open",
+          "loop": 56,
+          "name": "Rue le Regrattier",
+          "way_id": 4433292
+        },
+        {
+          "action": "close",
+          "loop": 75,
+          "name": "Rue de Rivoli",
+          "way_id": 123324299
+        }
+      ],
+      "exact": true,
+      "loops_run": 259,
+      "seed": 10100,
+      "stale_finite_cells": 0,
+      "state_resets": 4,
+      "wall_seconds": 1.1139539849998528,
+      "wrong_cells": 0,
+      "wrong_fraction": 0.0
+    },
+    {
+      "arm": "C",
+      "changed_series": [],
+      "city": "paris",
+      "converged": true,
+      "edit_count": 4,
+      "events": [
+        {
+          "action": "close",
+          "loop": 39,
+          "name": "Rue du Pont Neuf",
+          "way_id": 45828735
+        },
+        {
+          "action": "close",
+          "loop": 52,
+          "name": "Rue des Bourdonnais",
+          "way_id": 53578236
+        },
+        {
+          "action": "close",
+          "loop": 64,
+          "name": "Place Maurice Quentin",
+          "way_id": 1036607482
+        },
+        {
+          "action": "close",
+          "loop": 74,
+          "name": "Rue de la Lingerie",
+          "way_id": 173292038
+        }
+      ],
+      "exact": true,
+      "loops_run": 255,
+      "seed": 10200,
+      "stale_finite_cells": 0,
+      "state_resets": 4,
+      "wall_seconds": 0.996541698999863,
+      "wrong_cells": 0,
+      "wrong_fraction": 0.0
+    },
+    {
+      "arm": "C",
+      "changed_series": [],
+      "city": "paris",
+      "converged": true,
+      "edit_count": 4,
+      "events": [
+        {
+          "action": "close",
+          "loop": 38,
+          "name": "Cour de Rohan",
+          "way_id": 1249832034
+        },
+        {
+          "action": "close",
+          "loop": 49,
+          "name": "Rue des Archives",
+          "way_id": 1286204925
+        },
+        {
+          "action": "open",
+          "loop": 61,
+          "name": "Cour de Rohan",
+          "way_id": 1249832034
+        },
+        {
+          "action": "open",
+          "loop": 81,
+          "name": "Rue des Archives",
+          "way_id": 1286204925
+        }
+      ],
+      "exact": true,
+      "loops_run": 260,
+      "seed": 10300,
+      "stale_finite_cells": 0,
+      "state_resets": 4,
+      "wall_seconds": 5.716658345999804,
+      "wrong_cells": 0,
+      "wrong_fraction": 0.0
+    },
+    {
+      "arm": "C",
+      "changed_series": [],
+      "city": "paris",
+      "converged": true,
+      "edit_count": 4,
+      "events": [
+        {
+          "action": "close",
+          "loop": 23,
+          "name": "Place Joachim du Bellay",
+          "way_id": 1249423943
+        },
+        {
+          "action": "open",
+          "loop": 37,
+          "name": "Place Joachim du Bellay",
+          "way_id": 1249423943
+        },
+        {
+          "action": "close",
+          "loop": 46,
+          "name": "Rue du Petit Pont",
+          "way_id": 1333220017
+        },
+        {
+          "action": "close",
+          "loop": 63,
+          "name": "Pont d'Arcole",
+          "way_id": 138032010
+        }
+      ],
+      "exact": true,
+      "loops_run": 242,
+      "seed": 10400,
+      "stale_finite_cells": 0,
+      "state_resets": 4,
+      "wall_seconds": 1.026564844999939,
+      "wrong_cells": 0,
+      "wrong_fraction": 0.0
+    },
+    {
+      "arm": "A",
+      "changed_series": [],
+      "city": "lyon",
+      "converged": true,
+      "edit_count": 4,
+      "events": [
+        {
+          "action": "close",
+          "loop": 40,
+          "name": "Mont\u00e9e des Chazeaux",
+          "way_id": 1354146253
+        },
+        {
+          "action": "close",
+          "loop": 56,
+          "name": "Pont de la Guilloti\u00e8re",
+          "way_id": 23128193
+        },
+        {
+          "action": "close",
+          "loop": 69,
+          "name": "Belv\u00e9d\u00e8re Cardinal Henri de Lubac",
+          "way_id": 186631165
+        },
+        {
+          "action": "close",
+          "loop": 85,
+          "name": "Place Bellecour",
+          "way_id": 1413437355
+        }
+      ],
+      "exact": true,
+      "loops_run": 250,
+      "seed": 11000,
+      "stale_finite_cells": 0,
+      "state_resets": 0,
+      "wall_seconds": 1.2584284529998513,
+      "wrong_cells": 0,
+      "wrong_fraction": 0.0
+    },
+    {
+      "arm": "A",
+      "changed_series": [],
+      "city": "lyon",
+      "converged": true,
+      "edit_count": 4,
+      "events": [
+        {
+          "action": "close",
+          "loop": 25,
+          "name": "Rue Tupin",
+          "way_id": 182974210
+        },
+        {
+          "action": "close",
+          "loop": 37,
+          "name": "Place de la R\u00e9publique",
+          "way_id": 512171720
+        },
+        {
+          "action": "open",
+          "loop": 51,
+          "name": "Place de la R\u00e9publique",
+          "way_id": 512171720
+        },
+        {
+          "action": "open",
+          "loop": 72,
+          "name": "Rue Tupin",
+          "way_id": 182974210
+        }
+      ],
+      "exact": true,
+      "loops_run": 211,
+      "seed": 11100,
+      "stale_finite_cells": 0,
+      "state_resets": 0,
+      "wall_seconds": 0.9452787909999643,
+      "wrong_cells": 0,
+      "wrong_fraction": 0.0
+    },
+    {
+      "arm": "A",
+      "changed_series": [],
+      "city": "lyon",
+      "converged": true,
+      "edit_count": 4,
+      "events": [
+        {
+          "action": "close",
+          "loop": 34,
+          "name": "Place Bellecour",
+          "way_id": 1015811219
+        },
+        {
+          "action": "open",
+          "loop": 44,
+          "name": "Place Bellecour",
+          "way_id": 1015811219
+        },
+        {
+          "action": "close",
+          "loop": 65,
+          "name": "Rue Simon Maupin",
+          "way_id": 4378907
+        },
+        {
+          "action": "close",
+          "loop": 86,
+          "name": "Passage des Imprimeurs",
+          "way_id": 512169668
+        }
+      ],
+      "exact": true,
+      "loops_run": 211,
+      "seed": 11200,
+      "stale_finite_cells": 0,
+      "state_resets": 0,
+      "wall_seconds": 1.01095320599984,
+      "wrong_cells": 0,
+      "wrong_fraction": 0.0
+    },
+    {
+      "arm": "A",
+      "changed_series": [],
+      "city": "lyon",
+      "converged": true,
+      "edit_count": 4,
+      "events": [
+        {
+          "action": "close",
+          "loop": 44,
+          "name": "Rue Tupin",
+          "way_id": 182974210
+        },
+        {
+          "action": "close",
+          "loop": 56,
+          "name": "Rue de la Monnaie",
+          "way_id": 1467646638
+        },
+        {
+          "action": "close",
+          "loop": 72,
+          "name": "Rue Jean Larriv\u00e9",
+          "way_id": 5073283
+        },
+        {
+          "action": "open",
+          "loop": 81,
+          "name": "Rue de la Monnaie",
+          "way_id": 1467646638
+        }
+      ],
+      "exact": true,
+      "loops_run": 217,
+      "seed": 11300,
+      "stale_finite_cells": 0,
+      "state_resets": 0,
+      "wall_seconds": 1.2758413120000114,
+      "wrong_cells": 0,
+      "wrong_fraction": 0.0
+    },
+    {
+      "arm": "A",
+      "changed_series": [],
+      "city": "lyon",
+      "converged": true,
+      "edit_count": 4,
+      "events": [
+        {
+          "action": "close",
+          "loop": 29,
+          "name": "Place Antonin Poncet",
+          "way_id": 1040609810
+        },
+        {
+          "action": "open",
+          "loop": 45,
+          "name": "Place Antonin Poncet",
+          "way_id": 1040609810
+        },
+        {
+          "action": "close",
+          "loop": 65,
+          "name": "Place Saint-Jean",
+          "way_id": 854672187
+        },
+        {
+          "action": "open",
+          "loop": 73,
+          "name": "Place Saint-Jean",
+          "way_id": 854672187
+        }
+      ],
+      "exact": true,
+      "loops_run": 211,
+      "seed": 11400,
+      "stale_finite_cells": 0,
+      "state_resets": 0,
+      "wall_seconds": 0.8730699489999552,
+      "wrong_cells": 0,
+      "wrong_fraction": 0.0
+    },
+    {
+      "arm": "B",
+      "changed_series": [],
+      "city": "lyon",
+      "converged": true,
+      "edit_count": 4,
+      "events": [
+        {
+          "action": "close",
+          "loop": 40,
+          "name": "Mont\u00e9e des Chazeaux",
+          "way_id": 1354146253
+        },
+        {
+          "action": "close",
+          "loop": 56,
+          "name": "Pont de la Guilloti\u00e8re",
+          "way_id": 23128193
+        },
+        {
+          "action": "close",
+          "loop": 69,
+          "name": "Belv\u00e9d\u00e8re Cardinal Henri de Lubac",
+          "way_id": 186631165
+        },
+        {
+          "action": "close",
+          "loop": 85,
+          "name": "Place Bellecour",
+          "way_id": 1413437355
+        }
+      ],
+      "exact": false,
+      "loops_run": 250,
+      "seed": 11000,
+      "stale_finite_cells": 1461,
+      "state_resets": 0,
+      "wall_seconds": 1.0139059610000913,
+      "wrong_cells": 1461,
+      "wrong_fraction": 0.04748748618604953
+    },
+    {
+      "arm": "B",
+      "changed_series": [],
+      "city": "lyon",
+      "converged": true,
+      "edit_count": 4,
+      "events": [
+        {
+          "action": "close",
+          "loop": 25,
+          "name": "Rue Tupin",
+          "way_id": 182974210
+        },
+        {
+          "action": "close",
+          "loop": 37,
+          "name": "Place de la R\u00e9publique",
+          "way_id": 512171720
+        },
+        {
+          "action": "open",
+          "loop": 51,
+          "name": "Place de la R\u00e9publique",
+          "way_id": 512171720
+        },
+        {
+          "action": "open",
+          "loop": 72,
+          "name": "Rue Tupin",
+          "way_id": 182974210
+        }
+      ],
+      "exact": true,
+      "loops_run": 211,
+      "seed": 11100,
+      "stale_finite_cells": 0,
+      "state_resets": 0,
+      "wall_seconds": 0.919255977000148,
+      "wrong_cells": 0,
+      "wrong_fraction": 0.0
+    },
+    {
+      "arm": "B",
+      "changed_series": [],
+      "city": "lyon",
+      "converged": true,
+      "edit_count": 4,
+      "events": [
+        {
+          "action": "close",
+          "loop": 34,
+          "name": "Place Bellecour",
+          "way_id": 1015811219
+        },
+        {
+          "action": "open",
+          "loop": 44,
+          "name": "Place Bellecour",
+          "way_id": 1015811219
+        },
+        {
+          "action": "close",
+          "loop": 65,
+          "name": "Rue Simon Maupin",
+          "way_id": 4378907
+        },
+        {
+          "action": "close",
+          "loop": 86,
+          "name": "Passage des Imprimeurs",
+          "way_id": 512169668
+        }
+      ],
+      "exact": false,
+      "loops_run": 211,
+      "seed": 11200,
+      "stale_finite_cells": 192,
+      "state_resets": 0,
+      "wall_seconds": 0.863135838000062,
+      "wrong_cells": 192,
+      "wrong_fraction": 0.0060629026146267525
+    },
+    {
+      "arm": "B",
+      "changed_series": [],
+      "city": "lyon",
+      "converged": true,
+      "edit_count": 4,
+      "events": [
+        {
+          "action": "close",
+          "loop": 44,
+          "name": "Rue Tupin",
+          "way_id": 182974210
+        },
+        {
+          "action": "close",
+          "loop": 56,
+          "name": "Rue de la Monnaie",
+          "way_id": 1467646638
+        },
+        {
+          "action": "close",
+          "loop": 72,
+          "name": "Rue Jean Larriv\u00e9",
+          "way_id": 5073283
+        },
+        {
+          "action": "open",
+          "loop": 81,
+          "name": "Rue de la Monnaie",
+          "way_id": 1467646638
+        }
+      ],
+      "exact": false,
+      "loops_run": 211,
+      "seed": 11300,
+      "stale_finite_cells": 647,
+      "state_resets": 0,
+      "wall_seconds": 0.8428804070001661,
+      "wrong_cells": 647,
+      "wrong_fraction": 0.02053642279003333
+    },
+    {
+      "arm": "B",
+      "changed_series": [],
+      "city": "lyon",
+      "converged": true,
+      "edit_count": 4,
+      "events": [
+        {
+          "action": "close",
+          "loop": 29,
+          "name": "Place Antonin Poncet",
+          "way_id": 1040609810
+        },
+        {
+          "action": "open",
+          "loop": 45,
+          "name": "Place Antonin Poncet",
+          "way_id": 1040609810
+        },
+        {
+          "action": "close",
+          "loop": 65,
+          "name": "Place Saint-Jean",
+          "way_id": 854672187
+        },
+        {
+          "action": "open",
+          "loop": 73,
+          "name": "Place Saint-Jean",
+          "way_id": 854672187
+        }
+      ],
+      "exact": true,
+      "loops_run": 211,
+      "seed": 11400,
+      "stale_finite_cells": 0,
+      "state_resets": 0,
+      "wall_seconds": 0.8581924050001817,
+      "wrong_cells": 0,
+      "wrong_fraction": 0.0
+    },
+    {
+      "arm": "C",
+      "changed_series": [],
+      "city": "lyon",
+      "converged": true,
+      "edit_count": 4,
+      "events": [
+        {
+          "action": "close",
+          "loop": 40,
+          "name": "Mont\u00e9e des Chazeaux",
+          "way_id": 1354146253
+        },
+        {
+          "action": "close",
+          "loop": 56,
+          "name": "Pont de la Guilloti\u00e8re",
+          "way_id": 23128193
+        },
+        {
+          "action": "close",
+          "loop": 69,
+          "name": "Belv\u00e9d\u00e8re Cardinal Henri de Lubac",
+          "way_id": 186631165
+        },
+        {
+          "action": "close",
+          "loop": 85,
+          "name": "Place Bellecour",
+          "way_id": 1413437355
+        }
+      ],
+      "exact": true,
+      "loops_run": 335,
+      "seed": 11000,
+      "stale_finite_cells": 0,
+      "state_resets": 4,
+      "wall_seconds": 1.9370866459998979,
+      "wrong_cells": 0,
+      "wrong_fraction": 0.0
+    },
+    {
+      "arm": "C",
+      "changed_series": [],
+      "city": "lyon",
+      "converged": true,
+      "edit_count": 4,
+      "events": [
+        {
+          "action": "close",
+          "loop": 25,
+          "name": "Rue Tupin",
+          "way_id": 182974210
+        },
+        {
+          "action": "close",
+          "loop": 37,
+          "name": "Place de la R\u00e9publique",
+          "way_id": 512171720
+        },
+        {
+          "action": "open",
+          "loop": 51,
+          "name": "Place de la R\u00e9publique",
+          "way_id": 512171720
+        },
+        {
+          "action": "open",
+          "loop": 72,
+          "name": "Rue Tupin",
+          "way_id": 182974210
+        }
+      ],
+      "exact": true,
+      "loops_run": 283,
+      "seed": 11100,
+      "stale_finite_cells": 0,
+      "state_resets": 4,
+      "wall_seconds": 1.1469287959998837,
+      "wrong_cells": 0,
+      "wrong_fraction": 0.0
+    },
+    {
+      "arm": "C",
+      "changed_series": [],
+      "city": "lyon",
+      "converged": true,
+      "edit_count": 4,
+      "events": [
+        {
+          "action": "close",
+          "loop": 34,
+          "name": "Place Bellecour",
+          "way_id": 1015811219
+        },
+        {
+          "action": "open",
+          "loop": 44,
+          "name": "Place Bellecour",
+          "way_id": 1015811219
+        },
+        {
+          "action": "close",
+          "loop": 65,
+          "name": "Rue Simon Maupin",
+          "way_id": 4378907
+        },
+        {
+          "action": "close",
+          "loop": 86,
+          "name": "Passage des Imprimeurs",
+          "way_id": 512169668
+        }
+      ],
+      "exact": true,
+      "loops_run": 297,
+      "seed": 11200,
+      "stale_finite_cells": 0,
+      "state_resets": 4,
+      "wall_seconds": 1.3171778339999491,
+      "wrong_cells": 0,
+      "wrong_fraction": 0.0
+    },
+    {
+      "arm": "C",
+      "changed_series": [],
+      "city": "lyon",
+      "converged": true,
+      "edit_count": 4,
+      "events": [
+        {
+          "action": "close",
+          "loop": 44,
+          "name": "Rue Tupin",
+          "way_id": 182974210
+        },
+        {
+          "action": "close",
+          "loop": 56,
+          "name": "Rue de la Monnaie",
+          "way_id": 1467646638
+        },
+        {
+          "action": "close",
+          "loop": 72,
+          "name": "Rue Jean Larriv\u00e9",
+          "way_id": 5073283
+        },
+        {
+          "action": "open",
+          "loop": 81,
+          "name": "Rue de la Monnaie",
+          "way_id": 1467646638
+        }
+      ],
+      "exact": true,
+      "loops_run": 292,
+      "seed": 11300,
+      "stale_finite_cells": 0,
+      "state_resets": 4,
+      "wall_seconds": 1.1543429729999843,
+      "wrong_cells": 0,
+      "wrong_fraction": 0.0
+    },
+    {
+      "arm": "C",
+      "changed_series": [],
+      "city": "lyon",
+      "converged": true,
+      "edit_count": 4,
+      "events": [
+        {
+          "action": "close",
+          "loop": 29,
+          "name": "Place Antonin Poncet",
+          "way_id": 1040609810
+        },
+        {
+          "action": "open",
+          "loop": 45,
+          "name": "Place Antonin Poncet",
+          "way_id": 1040609810
+        },
+        {
+          "action": "close",
+          "loop": 65,
+          "name": "Place Saint-Jean",
+          "way_id": 854672187
+        },
+        {
+          "action": "open",
+          "loop": 73,
+          "name": "Place Saint-Jean",
+          "way_id": 854672187
+        }
+      ],
+      "exact": true,
+      "loops_run": 284,
+      "seed": 11400,
+      "stale_finite_cells": 0,
+      "state_resets": 4,
+      "wall_seconds": 1.164941018000036,
+      "wrong_cells": 0,
+      "wrong_fraction": 0.0
+    },
+    {
+      "arm": "A",
+      "changed_series": [],
+      "city": "amsterdam",
+      "converged": true,
+      "edit_count": 4,
+      "events": [
+        {
+          "action": "close",
+          "loop": 23,
+          "name": "Raamplein",
+          "way_id": 696683008
+        },
+        {
+          "action": "close",
+          "loop": 39,
+          "name": "Zwartlakensteeg",
+          "way_id": 124933460
+        },
+        {
+          "action": "open",
+          "loop": 49,
+          "name": "Zwartlakensteeg",
+          "way_id": 124933460
+        },
+        {
+          "action": "close",
+          "loop": 58,
+          "name": "Leidseplein",
+          "way_id": 159957038
+        }
+      ],
+      "exact": true,
+      "loops_run": 448,
+      "seed": 12000,
+      "stale_finite_cells": 0,
+      "state_resets": 0,
+      "wall_seconds": 1.8344330349998472,
+      "wrong_cells": 0,
+      "wrong_fraction": 0.0
+    },
+    {
+      "arm": "A",
+      "changed_series": [],
+      "city": "amsterdam",
+      "converged": true,
+      "edit_count": 4,
+      "events": [
+        {
+          "action": "close",
+          "loop": 29,
+          "name": "Blaeu Erf",
+          "way_id": 7371423
+        },
+        {
+          "action": "open",
+          "loop": 46,
+          "name": "Blaeu Erf",
+          "way_id": 7371423
+        },
+        {
+          "action": "close",
+          "loop": 63,
+          "name": "Leidsegracht",
+          "way_id": 315381453
+        },
+        {
+          "action": "close",
+          "loop": 80,
+          "name": "Damrak",
+          "way_id": 1116105054
+        }
+      ],
+      "exact": true,
+      "loops_run": 162,
+      "seed": 12100,
+      "stale_finite_cells": 0,
+      "state_resets": 0,
+      "wall_seconds": 0.6565818980000131,
+      "wrong_cells": 0,
+      "wrong_fraction": 0.0
+    },
+    {
+      "arm": "A",
+      "changed_series": [],
+      "city": "amsterdam",
+      "converged": true,
+      "edit_count": 4,
+      "events": [
+        {
+          "action": "close",
+          "loop": 29,
+          "name": "Kloveniersburgwal",
+          "way_id": 610234797
+        },
+        {
+          "action": "open",
+          "loop": 49,
+          "name": "Kloveniersburgwal",
+          "way_id": 610234797
+        },
+        {
+          "action": "close",
+          "loop": 59,
+          "name": "Meester Visserplein",
+          "way_id": 416398523
+        },
+        {
+          "action": "open",
+          "loop": 71,
+          "name": "Meester Visserplein",
+          "way_id": 416398523
+        }
+      ],
+      "exact": true,
+      "loops_run": 199,
+      "seed": 12200,
+      "stale_finite_cells": 0,
+      "state_resets": 0,
+      "wall_seconds": 0.877634751999949,
+      "wrong_cells": 0,
+      "wrong_fraction": 0.0
+    },
+    {
+      "arm": "A",
+      "changed_series": [],
+      "city": "amsterdam",
+      "converged": true,
+      "edit_count": 4,
+      "events": [
+        {
+          "action": "close",
+          "loop": 23,
+          "name": "Nieuwezijds Kolk",
+          "way_id": 23187840
+        },
+        {
+          "action": "open",
+          "loop": 38,
+          "name": "Nieuwezijds Kolk",
+          "way_id": 23187840
+        },
+        {
+          "action": "close",
+          "loop": 50,
+          "name": "Recht Boomssloot",
+          "way_id": 7370868
+        },
+        {
+          "action": "open",
+          "loop": 68,
+          "name": "Recht Boomssloot",
+          "way_id": 7370868
+        }
+      ],
+      "exact": true,
+      "loops_run": 142,
+      "seed": 12300,
+      "stale_finite_cells": 0,
+      "state_resets": 0,
+      "wall_seconds": 0.6934948230000373,
+      "wrong_cells": 0,
+      "wrong_fraction": 0.0
+    },
+    {
+      "arm": "A",
+      "changed_series": [],
+      "city": "amsterdam",
+      "converged": true,
+      "edit_count": 4,
+      "events": [
+        {
+          "action": "close",
+          "loop": 33,
+          "name": "Keizersgracht",
+          "way_id": 38300093
+        },
+        {
+          "action": "close",
+          "loop": 45,
+          "name": "Metrostation Nieuwmarkt",
+          "way_id": 886305320
+        },
+        {
+          "action": "open",
+          "loop": 59,
+          "name": "Keizersgracht",
+          "way_id": 38300093
+        },
+        {
+          "action": "close",
+          "loop": 79,
+          "name": "Dam",
+          "way_id": 1078013554
+        }
+      ],
+      "exact": true,
+      "loops_run": 228,
+      "seed": 12400,
+      "stale_finite_cells": 0,
+      "state_resets": 0,
+      "wall_seconds": 1.6027317010000388,
+      "wrong_cells": 0,
+      "wrong_fraction": 0.0
+    },
+    {
+      "arm": "B",
+      "changed_series": [],
+      "city": "amsterdam",
+      "converged": true,
+      "edit_count": 4,
+      "events": [
+        {
+          "action": "close",
+          "loop": 23,
+          "name": "Raamplein",
+          "way_id": 696683008
+        },
+        {
+          "action": "close",
+          "loop": 39,
+          "name": "Zwartlakensteeg",
+          "way_id": 124933460
+        },
+        {
+          "action": "open",
+          "loop": 49,
+          "name": "Zwartlakensteeg",
+          "way_id": 124933460
+        },
+        {
+          "action": "close",
+          "loop": 58,
+          "name": "Leidseplein",
+          "way_id": 159957038
+        }
+      ],
+      "exact": false,
+      "loops_run": 153,
+      "seed": 12000,
+      "stale_finite_cells": 4152,
+      "state_resets": 0,
+      "wall_seconds": 0.9579340420000335,
+      "wrong_cells": 4152,
+      "wrong_fraction": 0.12844547563805103
+    },
+    {
+      "arm": "B",
+      "changed_series": [],
+      "city": "amsterdam",
+      "converged": true,
+      "edit_count": 4,
+      "events": [
+        {
+          "action": "close",
+          "loop": 29,
+          "name": "Blaeu Erf",
+          "way_id": 7371423
+        },
+        {
+          "action": "open",
+          "loop": 46,
+          "name": "Blaeu Erf",
+          "way_id": 7371423
+        },
+        {
+          "action": "close",
+          "loop": 63,
+          "name": "Leidsegracht",
+          "way_id": 315381453
+        },
+        {
+          "action": "close",
+          "loop": 80,
+          "name": "Damrak",
+          "way_id": 1116105054
+        }
+      ],
+      "exact": false,
+      "loops_run": 137,
+      "seed": 12100,
+      "stale_finite_cells": 224,
+      "state_resets": 0,
+      "wall_seconds": 0.9451957450000918,
+      "wrong_cells": 224,
+      "wrong_fraction": 0.0070144673388864535
+    },
+    {
+      "arm": "B",
+      "changed_series": [],
+      "city": "amsterdam",
+      "converged": true,
+      "edit_count": 4,
+      "events": [
+        {
+          "action": "close",
+          "loop": 29,
+          "name": "Kloveniersburgwal",
+          "way_id": 610234797
+        },
+        {
+          "action": "open",
+          "loop": 49,
+          "name": "Kloveniersburgwal",
+          "way_id": 610234797
+        },
+        {
+          "action": "close",
+          "loop": 59,
+          "name": "Meester Visserplein",
+          "way_id": 416398523
+        },
+        {
+          "action": "open",
+          "loop": 71,
+          "name": "Meester Visserplein",
+          "way_id": 416398523
+        }
+      ],
+      "exact": true,
+      "loops_run": 137,
+      "seed": 12200,
+      "stale_finite_cells": 0,
+      "state_resets": 0,
+      "wall_seconds": 1.0971366670000862,
+      "wrong_cells": 0,
+      "wrong_fraction": 0.0
+    },
+    {
+      "arm": "B",
+      "changed_series": [],
+      "city": "amsterdam",
+      "converged": true,
+      "edit_count": 4,
+      "events": [
+        {
+          "action": "close",
+          "loop": 23,
+          "name": "Nieuwezijds Kolk",
+          "way_id": 23187840
+        },
+        {
+          "action": "open",
+          "loop": 38,
+          "name": "Nieuwezijds Kolk",
+          "way_id": 23187840
+        },
+        {
+          "action": "close",
+          "loop": 50,
+          "name": "Recht Boomssloot",
+          "way_id": 7370868
+        },
+        {
+          "action": "open",
+          "loop": 68,
+          "name": "Recht Boomssloot",
+          "way_id": 7370868
+        }
+      ],
+      "exact": true,
+      "loops_run": 137,
+      "seed": 12300,
+      "stale_finite_cells": 0,
+      "state_resets": 0,
+      "wall_seconds": 0.8138293689999045,
+      "wrong_cells": 0,
+      "wrong_fraction": 0.0
+    },
+    {
+      "arm": "B",
+      "changed_series": [],
+      "city": "amsterdam",
+      "converged": true,
+      "edit_count": 4,
+      "events": [
+        {
+          "action": "close",
+          "loop": 33,
+          "name": "Keizersgracht",
+          "way_id": 38300093
+        },
+        {
+          "action": "close",
+          "loop": 45,
+          "name": "Metrostation Nieuwmarkt",
+          "way_id": 886305320
+        },
+        {
+          "action": "open",
+          "loop": 59,
+          "name": "Keizersgracht",
+          "way_id": 38300093
+        },
+        {
+          "action": "close",
+          "loop": 79,
+          "name": "Dam",
+          "way_id": 1078013554
+        }
+      ],
+      "exact": true,
+      "loops_run": 171,
+      "seed": 12400,
+      "stale_finite_cells": 0,
+      "state_resets": 0,
+      "wall_seconds": 1.095591640000066,
+      "wrong_cells": 0,
+      "wrong_fraction": 0.0
+    },
+    {
+      "arm": "C",
+      "changed_series": [],
+      "city": "amsterdam",
+      "converged": true,
+      "edit_count": 4,
+      "events": [
+        {
+          "action": "close",
+          "loop": 23,
+          "name": "Raamplein",
+          "way_id": 696683008
+        },
+        {
+          "action": "close",
+          "loop": 39,
+          "name": "Zwartlakensteeg",
+          "way_id": 124933460
+        },
+        {
+          "action": "open",
+          "loop": 49,
+          "name": "Zwartlakensteeg",
+          "way_id": 124933460
+        },
+        {
+          "action": "close",
+          "loop": 58,
+          "name": "Leidseplein",
+          "way_id": 159957038
+        }
+      ],
+      "exact": true,
+      "loops_run": 300,
+      "seed": 12000,
+      "stale_finite_cells": 0,
+      "state_resets": 4,
+      "wall_seconds": 1.7394412809999267,
+      "wrong_cells": 0,
+      "wrong_fraction": 0.0
+    },
+    {
+      "arm": "C",
+      "changed_series": [],
+      "city": "amsterdam",
+      "converged": true,
+      "edit_count": 4,
+      "events": [
+        {
+          "action": "close",
+          "loop": 29,
+          "name": "Blaeu Erf",
+          "way_id": 7371423
+        },
+        {
+          "action": "open",
+          "loop": 46,
+          "name": "Blaeu Erf",
+          "way_id": 7371423
+        },
+        {
+          "action": "close",
+          "loop": 63,
+          "name": "Leidsegracht",
+          "way_id": 315381453
+        },
+        {
+          "action": "close",
+          "loop": 80,
+          "name": "Damrak",
+          "way_id": 1116105054
+        }
+      ],
+      "exact": true,
+      "loops_run": 217,
+      "seed": 12100,
+      "stale_finite_cells": 0,
+      "state_resets": 4,
+      "wall_seconds": 1.1562952670001323,
+      "wrong_cells": 0,
+      "wrong_fraction": 0.0
+    },
+    {
+      "arm": "C",
+      "changed_series": [],
+      "city": "amsterdam",
+      "converged": true,
+      "edit_count": 4,
+      "events": [
+        {
+          "action": "close",
+          "loop": 29,
+          "name": "Kloveniersburgwal",
+          "way_id": 610234797
+        },
+        {
+          "action": "open",
+          "loop": 49,
+          "name": "Kloveniersburgwal",
+          "way_id": 610234797
+        },
+        {
+          "action": "close",
+          "loop": 59,
+          "name": "Meester Visserplein",
+          "way_id": 416398523
+        },
+        {
+          "action": "open",
+          "loop": 71,
+          "name": "Meester Visserplein",
+          "way_id": 416398523
+        }
+      ],
+      "exact": true,
+      "loops_run": 208,
+      "seed": 12200,
+      "stale_finite_cells": 0,
+      "state_resets": 4,
+      "wall_seconds": 1.1414297880000959,
+      "wrong_cells": 0,
+      "wrong_fraction": 0.0
+    },
+    {
+      "arm": "C",
+      "changed_series": [],
+      "city": "amsterdam",
+      "converged": true,
+      "edit_count": 4,
+      "events": [
+        {
+          "action": "close",
+          "loop": 23,
+          "name": "Nieuwezijds Kolk",
+          "way_id": 23187840
+        },
+        {
+          "action": "open",
+          "loop": 38,
+          "name": "Nieuwezijds Kolk",
+          "way_id": 23187840
+        },
+        {
+          "action": "close",
+          "loop": 50,
+          "name": "Recht Boomssloot",
+          "way_id": 7370868
+        },
+        {
+          "action": "open",
+          "loop": 68,
+          "name": "Recht Boomssloot",
+          "way_id": 7370868
+        }
+      ],
+      "exact": true,
+      "loops_run": 205,
+      "seed": 12300,
+      "stale_finite_cells": 0,
+      "state_resets": 4,
+      "wall_seconds": 0.9901684540000133,
+      "wrong_cells": 0,
+      "wrong_fraction": 0.0
+    },
+    {
+      "arm": "C",
+      "changed_series": [],
+      "city": "amsterdam",
+      "converged": true,
+      "edit_count": 4,
+      "events": [
+        {
+          "action": "close",
+          "loop": 33,
+          "name": "Keizersgracht",
+          "way_id": 38300093
+        },
+        {
+          "action": "close",
+          "loop": 45,
+          "name": "Metrostation Nieuwmarkt",
+          "way_id": 886305320
+        },
+        {
+          "action": "open",
+          "loop": 59,
+          "name": "Keizersgracht",
+          "way_id": 38300093
+        },
+        {
+          "action": "close",
+          "loop": 79,
+          "name": "Dam",
+          "way_id": 1078013554
+        }
+      ],
+      "exact": true,
+      "loops_run": 216,
+      "seed": 12400,
+      "stale_finite_cells": 0,
+      "state_resets": 4,
+      "wall_seconds": 1.1146102130001054,
+      "wrong_cells": 0,
+      "wrong_fraction": 0.0
+    },
+    {
+      "arm": "A",
+      "changed_series": [],
+      "city": "venice",
+      "converged": true,
+      "edit_count": 4,
+      "events": [
+        {
+          "action": "close",
+          "loop": 42,
+          "name": "Corte Sant'Antonio",
+          "way_id": 169453901
+        },
+        {
+          "action": "close",
+          "loop": 54,
+          "name": "Calle del Figher",
+          "way_id": 323250900
+        },
+        {
+          "action": "close",
+          "loop": 74,
+          "name": "Molo di Palazzo Ducale",
+          "way_id": 1134466441
+        },
+        {
+          "action": "close",
+          "loop": 87,
+          "name": "Ponte de le Balote",
+          "way_id": 451572203
+        }
+      ],
+      "exact": true,
+      "loops_run": 233,
+      "seed": 13000,
+      "stale_finite_cells": 0,
+      "state_resets": 0,
+      "wall_seconds": 1.560224296000115,
+      "wrong_cells": 0,
+      "wrong_fraction": 0.0
+    },
+    {
+      "arm": "A",
+      "changed_series": [],
+      "city": "venice",
+      "converged": true,
+      "edit_count": 4,
+      "events": [
+        {
+          "action": "close",
+          "loop": 39,
+          "name": "Ramo de la Nave",
+          "way_id": 451956663
+        },
+        {
+          "action": "close",
+          "loop": 50,
+          "name": "Calle del Mettivia",
+          "way_id": 180933261
+        },
+        {
+          "action": "open",
+          "loop": 70,
+          "name": "Ramo de la Nave",
+          "way_id": 451956663
+        },
+        {
+          "action": "close",
+          "loop": 79,
+          "name": "Campiello de Ca' Zen",
+          "way_id": 174917768
+        }
+      ],
+      "exact": true,
+      "loops_run": 208,
+      "seed": 13100,
+      "stale_finite_cells": 0,
+      "state_resets": 0,
+      "wall_seconds": 1.0644206780000331,
+      "wrong_cells": 0,
+      "wrong_fraction": 0.0
+    },
+    {
+      "arm": "A",
+      "changed_series": [],
+      "city": "venice",
+      "converged": true,
+      "edit_count": 4,
+      "events": [
+        {
+          "action": "close",
+          "loop": 20,
+          "name": "Calle del Paradiso",
+          "way_id": 169314937
+        },
+        {
+          "action": "open",
+          "loop": 36,
+          "name": "Calle del Paradiso",
+          "way_id": 169314937
+        },
+        {
+          "action": "close",
+          "loop": 49,
+          "name": "Calle del Teatro",
+          "way_id": 152926917
+        },
+        {
+          "action": "close",
+          "loop": 70,
+          "name": "Calle de la Bota",
+          "way_id": 175072202
+        }
+      ],
+      "exact": true,
+      "loops_run": 211,
+      "seed": 13200,
+      "stale_finite_cells": 0,
+      "state_resets": 0,
+      "wall_seconds": 1.123031243000014,
+      "wrong_cells": 0,
+      "wrong_fraction": 0.0
+    },
+    {
+      "arm": "A",
+      "changed_series": [],
+      "city": "venice",
+      "converged": true,
+      "edit_count": 4,
+      "events": [
+        {
+          "action": "close",
+          "loop": 31,
+          "name": "Ponte di Rialto",
+          "way_id": 450089466
+        },
+        {
+          "action": "close",
+          "loop": 41,
+          "name": "Calle Gregolina",
+          "way_id": 181582294
+        },
+        {
+          "action": "open",
+          "loop": 58,
+          "name": "Ponte di Rialto",
+          "way_id": 450089466
+        },
+        {
+          "action": "close",
+          "loop": 67,
+          "name": "Corte del Tagiapiera",
+          "way_id": 594689651
+        }
+      ],
+      "exact": true,
+      "loops_run": 296,
+      "seed": 13300,
+      "stale_finite_cells": 0,
+      "state_resets": 0,
+      "wall_seconds": 1.2933614339999622,
+      "wrong_cells": 0,
+      "wrong_fraction": 0.0
+    },
+    {
+      "arm": "A",
+      "changed_series": [],
+      "city": "venice",
+      "converged": true,
+      "edit_count": 4,
+      "events": [
+        {
+          "action": "close",
+          "loop": 34,
+          "name": "Sotoportego de le Ostreghe",
+          "way_id": 180954127
+        },
+        {
+          "action": "open",
+          "loop": 44,
+          "name": "Sotoportego de le Ostreghe",
+          "way_id": 180954127
+        },
+        {
+          "action": "close",
+          "loop": 52,
+          "name": "Sotoportego C\u00e0 Morosini",
+          "way_id": 589284339
+        },
+        {
+          "action": "close",
+          "loop": 71,
+          "name": "Sotoportego Minelli",
+          "way_id": 1487617651
+        }
+      ],
+      "exact": true,
+      "loops_run": 208,
+      "seed": 13400,
+      "stale_finite_cells": 0,
+      "state_resets": 0,
+      "wall_seconds": 0.8915011190001678,
+      "wrong_cells": 0,
+      "wrong_fraction": 0.0
+    },
+    {
+      "arm": "B",
+      "changed_series": [],
+      "city": "venice",
+      "converged": true,
+      "edit_count": 4,
+      "events": [
+        {
+          "action": "close",
+          "loop": 42,
+          "name": "Corte Sant'Antonio",
+          "way_id": 169453901
+        },
+        {
+          "action": "close",
+          "loop": 54,
+          "name": "Calle del Figher",
+          "way_id": 323250900
+        },
+        {
+          "action": "close",
+          "loop": 74,
+          "name": "Molo di Palazzo Ducale",
+          "way_id": 1134466441
+        },
+        {
+          "action": "close",
+          "loop": 87,
+          "name": "Ponte de le Balote",
+          "way_id": 451572203
+        }
+      ],
+      "exact": false,
+      "loops_run": 208,
+      "seed": 13000,
+      "stale_finite_cells": 568,
+      "state_resets": 0,
+      "wall_seconds": 0.84059369900001,
+      "wrong_cells": 568,
+      "wrong_fraction": 0.022507528926929782
+    },
+    {
+      "arm": "B",
+      "changed_series": [],
+      "city": "venice",
+      "converged": true,
+      "edit_count": 4,
+      "events": [
+        {
+          "action": "close",
+          "loop": 39,
+          "name": "Ramo de la Nave",
+          "way_id": 451956663
+        },
+        {
+          "action": "close",
+          "loop": 50,
+          "name": "Calle del Mettivia",
+          "way_id": 180933261
+        },
+        {
+          "action": "open",
+          "loop": 70,
+          "name": "Ramo de la Nave",
+          "way_id": 451956663
+        },
+        {
+          "action": "close",
+          "loop": 79,
+          "name": "Campiello de Ca' Zen",
+          "way_id": 174917768
+        }
+      ],
+      "exact": true,
+      "loops_run": 208,
+      "seed": 13100,
+      "stale_finite_cells": 0,
+      "state_resets": 0,
+      "wall_seconds": 1.0422416920000614,
+      "wrong_cells": 0,
+      "wrong_fraction": 0.0
+    },
+    {
+      "arm": "B",
+      "changed_series": [],
+      "city": "venice",
+      "converged": true,
+      "edit_count": 4,
+      "events": [
+        {
+          "action": "close",
+          "loop": 20,
+          "name": "Calle del Paradiso",
+          "way_id": 169314937
+        },
+        {
+          "action": "open",
+          "loop": 36,
+          "name": "Calle del Paradiso",
+          "way_id": 169314937
+        },
+        {
+          "action": "close",
+          "loop": 49,
+          "name": "Calle del Teatro",
+          "way_id": 152926917
+        },
+        {
+          "action": "close",
+          "loop": 70,
+          "name": "Calle de la Bota",
+          "way_id": 175072202
+        }
+      ],
+      "exact": false,
+      "loops_run": 208,
+      "seed": 13200,
+      "stale_finite_cells": 47,
+      "state_resets": 0,
+      "wall_seconds": 1.1057594270000664,
+      "wrong_cells": 47,
+      "wrong_fraction": 0.0018429927064543957
+    },
+    {
+      "arm": "B",
+      "changed_series": [],
+      "city": "venice",
+      "converged": true,
+      "edit_count": 4,
+      "events": [
+        {
+          "action": "close",
+          "loop": 31,
+          "name": "Ponte di Rialto",
+          "way_id": 450089466
+        },
+        {
+          "action": "close",
+          "loop": 41,
+          "name": "Calle Gregolina",
+          "way_id": 181582294
+        },
+        {
+          "action": "open",
+          "loop": 58,
+          "name": "Ponte di Rialto",
+          "way_id": 450089466
+        },
+        {
+          "action": "close",
+          "loop": 67,
+          "name": "Corte del Tagiapiera",
+          "way_id": 594689651
+        }
+      ],
+      "exact": true,
+      "loops_run": 208,
+      "seed": 13300,
+      "stale_finite_cells": 0,
+      "state_resets": 0,
+      "wall_seconds": 0.9179153800000677,
+      "wrong_cells": 0,
+      "wrong_fraction": 0.0
+    },
+    {
+      "arm": "B",
+      "changed_series": [],
+      "city": "venice",
+      "converged": true,
+      "edit_count": 4,
+      "events": [
+        {
+          "action": "close",
+          "loop": 34,
+          "name": "Sotoportego de le Ostreghe",
+          "way_id": 180954127
+        },
+        {
+          "action": "open",
+          "loop": 44,
+          "name": "Sotoportego de le Ostreghe",
+          "way_id": 180954127
+        },
+        {
+          "action": "close",
+          "loop": 52,
+          "name": "Sotoportego C\u00e0 Morosini",
+          "way_id": 589284339
+        },
+        {
+          "action": "close",
+          "loop": 71,
+          "name": "Sotoportego Minelli",
+          "way_id": 1487617651
+        }
+      ],
+      "exact": true,
+      "loops_run": 208,
+      "seed": 13400,
+      "stale_finite_cells": 0,
+      "state_resets": 0,
+      "wall_seconds": 0.870579705999944,
+      "wrong_cells": 0,
+      "wrong_fraction": 0.0
+    },
+    {
+      "arm": "C",
+      "changed_series": [],
+      "city": "venice",
+      "converged": true,
+      "edit_count": 4,
+      "events": [
+        {
+          "action": "close",
+          "loop": 42,
+          "name": "Corte Sant'Antonio",
+          "way_id": 169453901
+        },
+        {
+          "action": "close",
+          "loop": 54,
+          "name": "Calle del Figher",
+          "way_id": 323250900
+        },
+        {
+          "action": "close",
+          "loop": 74,
+          "name": "Molo di Palazzo Ducale",
+          "way_id": 1134466441
+        },
+        {
+          "action": "close",
+          "loop": 87,
+          "name": "Ponte de le Balote",
+          "way_id": 451572203
+        }
+      ],
+      "exact": true,
+      "loops_run": 295,
+      "seed": 13000,
+      "stale_finite_cells": 0,
+      "state_resets": 4,
+      "wall_seconds": 1.5752796909998779,
+      "wrong_cells": 0,
+      "wrong_fraction": 0.0
+    },
+    {
+      "arm": "C",
+      "changed_series": [],
+      "city": "venice",
+      "converged": true,
+      "edit_count": 4,
+      "events": [
+        {
+          "action": "close",
+          "loop": 39,
+          "name": "Ramo de la Nave",
+          "way_id": 451956663
+        },
+        {
+          "action": "close",
+          "loop": 50,
+          "name": "Calle del Mettivia",
+          "way_id": 180933261
+        },
+        {
+          "action": "open",
+          "loop": 70,
+          "name": "Ramo de la Nave",
+          "way_id": 451956663
+        },
+        {
+          "action": "close",
+          "loop": 79,
+          "name": "Campiello de Ca' Zen",
+          "way_id": 174917768
+        }
+      ],
+      "exact": true,
+      "loops_run": 287,
+      "seed": 13100,
+      "stale_finite_cells": 0,
+      "state_resets": 4,
+      "wall_seconds": 1.3616897580000114,
+      "wrong_cells": 0,
+      "wrong_fraction": 0.0
+    },
+    {
+      "arm": "C",
+      "changed_series": [],
+      "city": "venice",
+      "converged": true,
+      "edit_count": 4,
+      "events": [
+        {
+          "action": "close",
+          "loop": 20,
+          "name": "Calle del Paradiso",
+          "way_id": 169314937
+        },
+        {
+          "action": "open",
+          "loop": 36,
+          "name": "Calle del Paradiso",
+          "way_id": 169314937
+        },
+        {
+          "action": "close",
+          "loop": 49,
+          "name": "Calle del Teatro",
+          "way_id": 152926917
+        },
+        {
+          "action": "close",
+          "loop": 70,
+          "name": "Calle de la Bota",
+          "way_id": 175072202
+        }
+      ],
+      "exact": true,
+      "loops_run": 278,
+      "seed": 13200,
+      "stale_finite_cells": 0,
+      "state_resets": 4,
+      "wall_seconds": 1.1050879439999335,
+      "wrong_cells": 0,
+      "wrong_fraction": 0.0
+    },
+    {
+      "arm": "C",
+      "changed_series": [],
+      "city": "venice",
+      "converged": true,
+      "edit_count": 4,
+      "events": [
+        {
+          "action": "close",
+          "loop": 31,
+          "name": "Ponte di Rialto",
+          "way_id": 450089466
+        },
+        {
+          "action": "close",
+          "loop": 41,
+          "name": "Calle Gregolina",
+          "way_id": 181582294
+        },
+        {
+          "action": "open",
+          "loop": 58,
+          "name": "Ponte di Rialto",
+          "way_id": 450089466
+        },
+        {
+          "action": "close",
+          "loop": 67,
+          "name": "Corte del Tagiapiera",
+          "way_id": 594689651
+        }
+      ],
+      "exact": true,
+      "loops_run": 275,
+      "seed": 13300,
+      "stale_finite_cells": 0,
+      "state_resets": 4,
+      "wall_seconds": 1.12130210600003,
+      "wrong_cells": 0,
+      "wrong_fraction": 0.0
+    },
+    {
+      "arm": "C",
+      "changed_series": [],
+      "city": "venice",
+      "converged": true,
+      "edit_count": 4,
+      "events": [
+        {
+          "action": "close",
+          "loop": 34,
+          "name": "Sotoportego de le Ostreghe",
+          "way_id": 180954127
+        },
+        {
+          "action": "open",
+          "loop": 44,
+          "name": "Sotoportego de le Ostreghe",
+          "way_id": 180954127
+        },
+        {
+          "action": "close",
+          "loop": 52,
+          "name": "Sotoportego C\u00e0 Morosini",
+          "way_id": 589284339
+        },
+        {
+          "action": "close",
+          "loop": 71,
+          "name": "Sotoportego Minelli",
+          "way_id": 1487617651
+        }
+      ],
+      "exact": true,
+      "loops_run": 279,
+      "seed": 13400,
+      "stale_finite_cells": 0,
+      "state_resets": 4,
+      "wall_seconds": 1.1289310219999606,
+      "wrong_cells": 0,
+      "wrong_fraction": 0.0
+    }
+  ],
+  "wall_seconds": 144.2518026828766,
+  "weight_count": 14376,
+  "weights_sha256": "0264d0268139f83cf9668f79021a1594cc855f16cab3b0eecccf46b9a66c8b6b"
+}

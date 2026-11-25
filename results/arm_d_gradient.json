@@ -1,0 +1,24 @@
+{
+  "batches": 2089,
+  "evaluation": {
+    "city": "paris",
+    "exact_rate": 0.0,
+    "rows": [
+      {
+        "exact": false,
+        "trial": 0
+      },
+      {
+        "exact": false,
+        "trial": 1
+      }
+    ],
+    "trials": 2
+  },
+  "final_loss": 0.05017365887761116,
+  "hypothesis_4_supported": true,
+  "mean_last10_loss": 0.11358133479952812,
+  "parameter_count": 9448,
+  "scale_label": "CPU smoke: 45s training at 32x32, 2 city evaluation trials",
+  "train_seconds": 47.015881130000025
+}

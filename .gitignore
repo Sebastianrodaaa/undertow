@@ -1,0 +1,7 @@
+__pycache__/
+*.py[cod]
+.env
+models/
+third_party/
+results/writer_candidate.py
+videos/*.webm
