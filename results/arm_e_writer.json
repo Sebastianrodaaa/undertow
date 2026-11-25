@@ -1,0 +1,22 @@
+{
+  "attempts_completed": 1,
+  "attempts_requested": 1,
+  "binary": "third_party/llama.cpp/build/bin/llama-cli",
+  "hypothesis_5_supported": true,
+  "model": "models/qwen2.5-coder-7b-instruct-q4_k_m.gguf",
+  "passed": false,
+  "rounds": [
+    {
+      "attempt": 0,
+      "compile_stderr": "  File \"results/writer_candidate.py\", line 3\n    Loading model... |\b-\b\\\b|\b/\b-\b\\\b|\b/\b-\b\\\b|\b/\b-\b\\\b|\b/\b-\b\\\b|\b/\b-\b\\\b|\b/\b-\b\\\b|\b/\b-\b\\\b|\b/\b-\b\\\b|\b/\b-\b\\\b|\b/\b-\b\\\b|\b/\b-\b\\\b|\b/\b-\b\\\b|\b/\b-\b\\\b|\b/\b-\b\\\b|\b/\b-\b\\\b|\b/\b-\b\\\b|\b/\b-\b\\\b|\b/\b-\b\\\b|\b/\b-\b\\\b|\b/\b-\b\\\b|\b/\b-\b\\\b|\b \b\n            ^^^^^\nSyntaxError: invalid syntax\n",
+      "passed_static_gate": false,
+      "round": 0,
+      "seconds": 35.501086084000235,
+      "stderr_tail": "",
+      "tokens_per_second": null
+    }
+  ],
+  "rounds_requested": 1,
+  "run_type": "arm_e_local_qwen_writer",
+  "status": "completed"
+}

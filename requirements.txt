@@ -1,0 +1,5 @@
+numpy>=2.0
+aiohttp>=3.9
+Pillow>=10.0
+matplotlib>=3.8
+playwright>=1.40

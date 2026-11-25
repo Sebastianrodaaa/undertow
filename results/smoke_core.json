@@ -1,0 +1,305 @@
+{
+  "arms": {
+    "A": {
+      "converged_rate": 1.0,
+      "exact_rate": 1.0,
+      "exact_rate_ci95": [
+        1.0,
+        1.0
+      ],
+      "stale_finite_cells_mean": 0.0,
+      "trials": 1,
+      "wrong_fraction_mean": 0.0
+    },
+    "B": {
+      "converged_rate": 1.0,
+      "exact_rate": 0.0,
+      "exact_rate_ci95": [
+        0.0,
+        0.0
+      ],
+      "stale_finite_cells_mean": 1.0,
+      "trials": 1,
+      "wrong_fraction_mean": 2.7814864263462394e-05
+    },
+    "C": {
+      "converged_rate": 1.0,
+      "exact_rate": 1.0,
+      "exact_rate_ci95": [
+        1.0,
+        1.0
+      ],
+      "stale_finite_cells_mean": 0.0,
+      "trials": 1,
+      "wrong_fraction_mean": 0.0
+    }
+  },
+  "cities": {
+    "paris": {
+      "bbox": [
+        48.8505,
+        2.337,
+        48.8615,
+        2.3575
+      ],
+      "building_dots": 2000,
+      "checksum": "fba5c166cb49fb569feb23a5c8a7b05ba5c26b42fd155ace0733abb23cf00982",
+      "exit_count": 6,
+      "label": "Paris \u00b7 Ile de la Cite",
+      "walkable_cells": 36104,
+      "way_count": 4663
+    }
+  },
+  "cpu_count": 8,
+  "repair": {
+    "A": {
+      "median_ratio": 0.2988826815642458,
+      "median_repair_loops": 53.5,
+      "median_restart_loops": 179.0,
+      "rows": [
+        {
+          "arm": "A",
+          "city": "paris",
+          "converged": true,
+          "exact": true,
+          "initial_loops": 179,
+          "name": "Rue du Pont Louis-Philippe",
+          "ratio": 0.31843575418994413,
+          "repair_loops": 57,
+          "restart_loops": 179,
+          "stale_finite_cells": 0,
+          "way_id": 4527562,
+          "wrong_cells": 0
+        },
+        {
+          "arm": "A",
+          "city": "paris",
+          "converged": true,
+          "exact": true,
+          "initial_loops": 179,
+          "name": "Pont des Arts",
+          "ratio": 0.11731843575418995,
+          "repair_loops": 21,
+          "restart_loops": 179,
+          "stale_finite_cells": 0,
+          "way_id": 454298362,
+          "wrong_cells": 0
+        },
+        {
+          "arm": "A",
+          "city": "paris",
+          "converged": true,
+          "exact": true,
+          "initial_loops": 179,
+          "name": "Rue du Pont Neuf",
+          "ratio": 0.9405405405405406,
+          "repair_loops": 174,
+          "restart_loops": 185,
+          "stale_finite_cells": 0,
+          "way_id": 688234527,
+          "wrong_cells": 0
+        },
+        {
+          "arm": "A",
+          "city": "paris",
+          "converged": true,
+          "exact": true,
+          "initial_loops": 179,
+          "name": "Rue du Pont de Lodi",
+          "ratio": 0.27932960893854747,
+          "repair_loops": 50,
+          "restart_loops": 179,
+          "stale_finite_cells": 0,
+          "way_id": 4227128,
+          "wrong_cells": 0
+        }
+      ]
+    },
+    "B": {
+      "median_ratio": 0.0111731843575419,
+      "median_repair_loops": 2.0,
+      "median_restart_loops": 179.0,
+      "rows": [
+        {
+          "arm": "B",
+          "city": "paris",
+          "converged": true,
+          "exact": false,
+          "initial_loops": 179,
+          "name": "Rue du Pont Louis-Philippe",
+          "ratio": 0.0111731843575419,
+          "repair_loops": 2,
+          "restart_loops": 179,
+          "stale_finite_cells": 130,
+          "way_id": 4527562,
+          "wrong_cells": 130
+        },
+        {
+          "arm": "B",
+          "city": "paris",
+          "converged": true,
+          "exact": false,
+          "initial_loops": 179,
+          "name": "Pont des Arts",
+          "ratio": 0.0111731843575419,
+          "repair_loops": 2,
+          "restart_loops": 179,
+          "stale_finite_cells": 4,
+          "way_id": 454298362,
+          "wrong_cells": 4
+        },
+        {
+          "arm": "B",
+          "city": "paris",
+          "converged": true,
+          "exact": false,
+          "initial_loops": 179,
+          "name": "Rue du Pont Neuf",
+          "ratio": 0.010810810810810811,
+          "repair_loops": 2,
+          "restart_loops": 185,
+          "stale_finite_cells": 1621,
+          "way_id": 688234527,
+          "wrong_cells": 1621
+        },
+        {
+          "arm": "B",
+          "city": "paris",
+          "converged": true,
+          "exact": false,
+          "initial_loops": 179,
+          "name": "Rue du Pont de Lodi",
+          "ratio": 0.0111731843575419,
+          "repair_loops": 2,
+          "restart_loops": 179,
+          "stale_finite_cells": 197,
+          "way_id": 4227128,
+          "wrong_cells": 197
+        }
+      ],
+      "stale_trial_rate": 1.0
+    }
+  },
+  "run_type": "core_arms_real_osm",
+  "scale_label": "1 cities x 1 trials per arm, 3 edits per trial",
+  "started_utc": "2026-11-25T20:45:38Z",
+  "throughput": [
+    {
+      "city": "paris",
+      "loops": 379,
+      "loops_per_second": 252.49083104195725,
+      "seconds": 1.5010446060000504
+    }
+  ],
+  "torch_version": "2.14.1+cpu",
+  "trials": [
+    {
+      "arm": "A",
+      "changed_series": [],
+      "city": "paris",
+      "converged": true,
+      "edit_count": 3,
+      "events": [
+        {
+          "action": "close",
+          "loop": 24,
+          "name": "Rue des Bernardins",
+          "way_id": 72240223
+        },
+        {
+          "action": "close",
+          "loop": 39,
+          "name": "Pont d'Arcole",
+          "way_id": 22973459
+        },
+        {
+          "action": "close",
+          "loop": 58,
+          "name": "Passage Dauphine",
+          "way_id": 62252372
+        }
+      ],
+      "exact": true,
+      "loops_run": 179,
+      "seed": 10000,
+      "stale_finite_cells": 0,
+      "state_resets": 0,
+      "wall_seconds": 1.096816459000138,
+      "wrong_cells": 0,
+      "wrong_fraction": 0.0
+    },
+    {
+      "arm": "B",
+      "changed_series": [],
+      "city": "paris",
+      "converged": true,
+      "edit_count": 3,
+      "events": [
+        {
+          "action": "close",
+          "loop": 24,
+          "name": "Rue des Bernardins",
+          "way_id": 72240223
+        },
+        {
+          "action": "close",
+          "loop": 39,
+          "name": "Pont d'Arcole",
+          "way_id": 22973459
+        },
+        {
+          "action": "close",
+          "loop": 58,
+          "name": "Passage Dauphine",
+          "way_id": 62252372
+        }
+      ],
+      "exact": false,
+      "loops_run": 179,
+      "seed": 10000,
+      "stale_finite_cells": 1,
+      "state_resets": 0,
+      "wall_seconds": 0.842111308000085,
+      "wrong_cells": 1,
+      "wrong_fraction": 2.7814864263462394e-05
+    },
+    {
+      "arm": "C",
+      "changed_series": [],
+      "city": "paris",
+      "converged": true,
+      "edit_count": 3,
+      "events": [
+        {
+          "action": "close",
+          "loop": 24,
+          "name": "Rue des Bernardins",
+          "way_id": 72240223
+        },
+        {
+          "action": "close",
+          "loop": 39,
+          "name": "Pont d'Arcole",
+          "way_id": 22973459
+        },
+        {
+          "action": "close",
+          "loop": 58,
+          "name": "Passage Dauphine",
+          "way_id": 62252372
+        }
+      ],
+      "exact": true,
+      "loops_run": 237,
+      "seed": 10000,
+      "stale_finite_cells": 0,
+      "state_resets": 3,
+      "wall_seconds": 0.9920139480000216,
+      "wrong_cells": 0,
+      "wrong_fraction": 0.0
+    }
+  ],
+  "wall_seconds": 18.904510974884033,
+  "weight_count": 14376,
+  "weights_sha256": "0264d0268139f83cf9668f79021a1594cc855f16cab3b0eecccf46b9a66c8b6b"
+}

@@ -1,0 +1,5 @@
+{"action": "close", "loop": 150, "name": "Pont Neuf", "source": "recorded-real-osm-way", "type": "edit", "way_id": 20326518}
+{"action": "close", "loop": 350, "name": "Pont au Change", "source": "recorded-real-osm-way", "type": "edit", "way_id": 27773625}
+{"action": "open", "loop": 420, "name": "Pont Neuf", "source": "recorded-real-osm-way", "type": "edit", "way_id": 20326518}
+{"action": "close", "loop": 470, "name": "Rue de Rivoli", "source": "recorded-real-osm-way", "type": "edit", "way_id": 4527645}
+{"action": "open", "loop": 540, "name": "Pont au Change", "source": "recorded-real-osm-way", "type": "edit", "way_id": 27773625}
